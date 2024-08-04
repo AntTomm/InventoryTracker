@@ -90,7 +90,7 @@ const handleClose = () => setOpen(false)
               transform: 'translate(-50%, -50%)',
             }}
           >
-            <Typography variant = "h6">Add Item</Typography>
+            <Typography variant = "h6" sx={{ color: '#8B4513'}}>Add Item</Typography>
             <Stack width ="100%" direction ="row" spacing={2}></Stack>
             <TextField
             variant='outlined'

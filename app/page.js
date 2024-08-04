@@ -113,7 +113,11 @@ const handleClose = () => setOpen(false)
       <Button variant = "container" onClick={()=>{
         handleOpen()
       }}
-      sx={{baxkgroundColor:'#DEB887', color: '#FFFFFF' }}
+      sx={{baxkgroundColor:'#DEB887', color: '#FFFFFF',
+        border: '2px solid #8B4513', '&:hover':{
+          backgroundColor: '#D2B48C'
+        }
+      }}
       >
         Add New Item
       </Button>

@@ -79,7 +79,7 @@ const handleClose = () => setOpen(false)
             top="50%"
             left = "50%"
             width = {400}
-            bgcolor="white"
+            bgcolor="black"
             border="2px solid #000"
             boxShadow={24}
             p={4}

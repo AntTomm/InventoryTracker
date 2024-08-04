@@ -69,6 +69,7 @@ const handleClose = () => setOpen(false)
     flexDirection="column"
     justifyContent="center" 
     alignItems="center" 
+    sx={{backgroundColor: '#FFFFFF'}}
     gap={2}
     >
       <Modal

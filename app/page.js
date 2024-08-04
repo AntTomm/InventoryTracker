@@ -69,7 +69,7 @@ const handleClose = () => setOpen(false)
     flexDirection="column"
     justifyContent="center" 
     alignItems="center" 
-    sx={{backgroundColor: '#FFFFFF'}}
+    sx={{backgroundColor: '#FAEBD7'}}
     gap={2}
     >
       <Modal
@@ -79,8 +79,8 @@ const handleClose = () => setOpen(false)
             top="50%"
             left = "50%"
             width = {400}
-            bgcolor="white"
-            border="2px solid #000"
+            bgcolor="#FFF5E1"
+            border="2px solid #8B4513"
             boxShadow={24}
             p={4}
             display="flex"
@@ -112,14 +112,16 @@ const handleClose = () => setOpen(false)
       </Modal>
       <Button variant = "container" onClick={()=>{
         handleOpen()
-      }}>
+      }}
+      sx={{baxkgroundColor:'#DEB887', color: '#FFFFFF' }}
+      >
         Add New Item
       </Button>
       <Box border ='1px solid #333'>
         <Box
         width = "800px"
         height ="100px"
-        bgcolor="#ADD8E6" alignItems="center" justifyContent="center" display="flex">
+        bgcolor="#c4a289" alignItems="center" justifyContent="center" display="flex">
           <Typography variant = 'h2' color = '#333'>
             Inventory Items
           </Typography>
